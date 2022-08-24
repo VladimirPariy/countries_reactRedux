@@ -1,7 +1,4 @@
 import styled from 'styled-components';
-import {useDispatch, useSelector} from "react-redux";
-import {useEffect} from "react";
-import {loadNeighborsByBorder, selectNeighbors} from "./details-slice";
 import {useNeighbors} from "./useNeighbors";
 
 
